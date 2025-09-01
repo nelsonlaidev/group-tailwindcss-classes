@@ -1,0 +1,18 @@
+{
+  "name": "group-tailwindcss-classes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format:check": "prettier --cache --check --ignore-path .gitignore --ignore-path .prettierignore .",
+    "format:write": "prettier --cache --write --list-different --ignore-path .gitignore --ignore-path .prettierignore ."
+  },
+  "devDependencies": {
+    "@nelsonlaidev/eslint-config": "https://pkg.pr.new/@nelsonlaidev/eslint-config@8203040",
+    "@nelsonlaidev/prettier-config": "^0.0.2",
+    "@nelsonlaidev/typescript-config": "^0.0.2",
+    "@types/bun": "^1.2.9",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}

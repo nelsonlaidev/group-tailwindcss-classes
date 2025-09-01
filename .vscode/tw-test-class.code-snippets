@@ -1,0 +1,13 @@
+{
+  "Tailwind Grouping Empty Test": {
+    "prefix": "twe",
+    "body": [
+      "test(\"case: $1\", () => {",
+      "  const input = \"$2\";",
+      "  const expected = [\"$3\"];",
+      "  expect(groupTailwindClasses(input)).toEqual(expected);",
+      "});"
+    ],
+    "description": "Test case for groupTailwindClasses with empty input"
+  }
+}
