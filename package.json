@@ -5,6 +5,8 @@
   "scripts": {
     "format:check": "prettier --cache --check --ignore-path .gitignore --ignore-path .prettierignore .",
     "format:write": "prettier --cache --write --list-different --ignore-path .gitignore --ignore-path .prettierignore .",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint --fix .",
     "start": "bun run src/index.ts"
   },
   "devDependencies": {
