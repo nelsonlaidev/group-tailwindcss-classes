@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "format:check": "prettier --cache --check --ignore-path .gitignore --ignore-path .prettierignore .",
-    "format:write": "prettier --cache --write --list-different --ignore-path .gitignore --ignore-path .prettierignore ."
+    "format:write": "prettier --cache --write --list-different --ignore-path .gitignore --ignore-path .prettierignore .",
+    "start": "bun run src/index.ts"
   },
   "devDependencies": {
     "@nelsonlaidev/eslint-config": "https://pkg.pr.new/@nelsonlaidev/eslint-config@8203040",
