@@ -167,9 +167,9 @@ rl.question('Enter Tailwind CSS classes:\n> ', (input) => {
   console.log(`\
 Grouped classes:
 
-{
+[
   ${result.map((line) => `"${line}",`).join('\n')}
-}
+]
   `)
 
   rl.close()
